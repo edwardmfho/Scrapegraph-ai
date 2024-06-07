@@ -1,3 +1,243 @@
+## [1.6.0-beta.8](https://github.com/VinciGit00/Scrapegraph-ai/compare/v1.6.0-beta.7...v1.6.0-beta.8) (2024-06-05)
+
+
+### Features
+
+* add json as output ([5d20186](https://github.com/VinciGit00/Scrapegraph-ai/commit/5d20186bf20fb2384f2a9e7e81c2e875ff50a4f3))
+
+## [1.6.0-beta.7](https://github.com/VinciGit00/Scrapegraph-ai/compare/v1.6.0-beta.6...v1.6.0-beta.7) (2024-06-05)
+
+
+### Features
+
+* **pydantic:** added pydantic output schema ([376f758](https://github.com/VinciGit00/Scrapegraph-ai/commit/376f758a76e3e111dc34416dedf8e294dc190963))
+* **append_node:** append node to existing graph ([f8b08e0](https://github.com/VinciGit00/Scrapegraph-ai/commit/f8b08e0b33ca31124c2773f47a624eeb0a4f302f))
+
+## [1.6.0-beta.6](https://github.com/VinciGit00/Scrapegraph-ai/compare/v1.6.0-beta.5...v1.6.0-beta.6) (2024-06-04)
+
+
+### Features
+
+* refactoring of abstract graph ([fff89f4](https://github.com/VinciGit00/Scrapegraph-ai/commit/fff89f431f60b5caa4dd87643a1bb8895bf96d48))
+
+## [1.6.0-beta.5](https://github.com/VinciGit00/Scrapegraph-ai/compare/v1.6.0-beta.4...v1.6.0-beta.5) (2024-06-04)
+
+
+### Features
+
+* refactoring of an in if ([244aada](https://github.com/VinciGit00/Scrapegraph-ai/commit/244aada2de1f3bc88782fa90e604e8b936b79aa4))
+
+## [1.6.0-beta.4](https://github.com/VinciGit00/Scrapegraph-ai/compare/v1.6.0-beta.3...v1.6.0-beta.4) (2024-06-03)
+
+
+### Features
+
+* fix an if ([c8d556d](https://github.com/VinciGit00/Scrapegraph-ai/commit/c8d556da4e4b8730c6c35f1d448270b8e26923f2))
+
+## [1.6.0-beta.3](https://github.com/VinciGit00/Scrapegraph-ai/compare/v1.6.0-beta.2...v1.6.0-beta.3) (2024-06-03)
+
+
+### Features
+
+* removed a bug ([8de720d](https://github.com/VinciGit00/Scrapegraph-ai/commit/8de720d37958e31b73c5c89bc21f474f3303b42b))
+
+## [1.6.0-beta.2](https://github.com/VinciGit00/Scrapegraph-ai/compare/v1.6.0-beta.1...v1.6.0-beta.2) (2024-06-03)
+
+
+### Features
+
+* add csv scraper and xml scraper multi ([b408655](https://github.com/VinciGit00/Scrapegraph-ai/commit/b4086550cc9dc42b2fd91ee7ef60c6a2c2ac3fd2))
+* add json multiscraper ([5bda918](https://github.com/VinciGit00/Scrapegraph-ai/commit/5bda918a39e4b50d86d784b4c592cc2ea1a68986))
+* add pdf scraper multi graph ([f5cbd80](https://github.com/VinciGit00/Scrapegraph-ai/commit/f5cbd80c977f51233ac1978d8450fcf0ec2ff461))
+* removed rag node ([930f673](https://github.com/VinciGit00/Scrapegraph-ai/commit/930f67374752561903462a25728c739946f9449b))
+
+## [1.6.0-beta.1](https://github.com/VinciGit00/Scrapegraph-ai/compare/v1.5.5-beta.1...v1.6.0-beta.1) (2024-06-02)
+
+
+### Features
+
+* add forcing format as json ([5cfc101](https://github.com/VinciGit00/Scrapegraph-ai/commit/5cfc10178abf0b7a3e0b2229512396e243305438))
+
+## [1.5.5-beta.1](https://github.com/VinciGit00/Scrapegraph-ai/compare/v1.5.4...v1.5.5-beta.1) (2024-05-31)
+
+
+### Bug Fixes
+
+* oneapi model ([4fcb990](https://github.com/VinciGit00/Scrapegraph-ai/commit/4fcb9902fe4c147c61a1622a919ade338c03b8d8))
+* typo in prompt ([4639f0c](https://github.com/VinciGit00/Scrapegraph-ai/commit/4639f0cac5029c6802a6caded7103d247f4f06dd))
+
+
+### CI
+
+* **release:** 1.5.3-beta.1 [skip ci] ([6ea1d2c](https://github.com/VinciGit00/Scrapegraph-ai/commit/6ea1d2c4d0aaf7a341a2ea6ea7070438a7610fe4))
+* **release:** 1.5.3-beta.2 [skip ci] ([b57bcef](https://github.com/VinciGit00/Scrapegraph-ai/commit/b57bcef5c18530ce03ff6ec65e9e33d00d9f6515))
+
+## [1.5.4](https://github.com/VinciGit00/Scrapegraph-ai/compare/v1.5.3...v1.5.4) (2024-05-31)
+
+
+
+### Bug Fixes
+
+* **3.9:** python 3.9 logging fix ([8be27ba](https://github.com/VinciGit00/Scrapegraph-ai/commit/8be27bad8022e75379309deccc8f6878ee1a362d))
+
+## [1.5.3](https://github.com/VinciGit00/Scrapegraph-ai/compare/v1.5.2...v1.5.3) (2024-05-30)
+
+
+
+### Bug Fixes
+
+* typo in generate_screper_node ([c4ce361](https://github.com/VinciGit00/Scrapegraph-ai/commit/c4ce36111f17526fd167c613a58ae09e361b62e1))
+
+## [1.5.2](https://github.com/VinciGit00/Scrapegraph-ai/compare/v1.5.1...v1.5.2) (2024-05-26)
+
+
+### Bug Fixes
+
+* fixed typo ([54e8216](https://github.com/VinciGit00/Scrapegraph-ai/commit/54e82163f077b90422eb0ba1202167d0ed0e7814))
+* Update __init__.py ([8f2c8d5](https://github.com/VinciGit00/Scrapegraph-ai/commit/8f2c8d5d1289b0dd2417df955310b4323f2df2d2))
+
+## [1.5.1](https://github.com/VinciGit00/Scrapegraph-ai/compare/v1.5.0...v1.5.1) (2024-05-26)
+
+
+### Bug Fixes
+
+* **pdf-example:** added pdf example and coauthor ([a796169](https://github.com/VinciGit00/Scrapegraph-ai/commit/a7961691df4ac78ddb9b05e467af187d98e4bafb))
+* **schema:** added schema ([8d76c4b](https://github.com/VinciGit00/Scrapegraph-ai/commit/8d76c4b3cbb90f61cfe0062583da13ed10501ecf))
+
+## [1.5.0](https://github.com/VinciGit00/Scrapegraph-ai/compare/v1.4.0...v1.5.0) (2024-05-26)
+
+
+### Features
+
+* **knowledgegraph:** add knowledge graph node ([0196423](https://github.com/VinciGit00/Scrapegraph-ai/commit/0196423bdeea6568086aae6db8fc0f5652fc4e87))
+* add logger integration ([e53766b](https://github.com/VinciGit00/Scrapegraph-ai/commit/e53766b16e89254f945f9b54b38445a24f8b81f2))
+* **smart-scraper-multi:** add schema to graphs and created SmartScraperMultiGraph ([fc58e2d](https://github.com/VinciGit00/Scrapegraph-ai/commit/fc58e2d3a6f05efa72b45c9e68c6bb41a1eee755))
+* **burr:** added burr integration in graphs and optional burr installation ([ac10128](https://github.com/VinciGit00/Scrapegraph-ai/commit/ac10128ff3af35c52b48c79d085e458524e8e48a))
+* **base_graph:** alligned with main ([73fa31d](https://github.com/VinciGit00/Scrapegraph-ai/commit/73fa31db0f791d1fd63b489ac88cc6e595aa07f9))
+* **burr-bridge:** BurrBridge class to integrate inside BaseGraph ([6cbd84f](https://github.com/VinciGit00/Scrapegraph-ai/commit/6cbd84f254ebc1f1c68699273bdd8fcdb0fe26d4))
+* **verbose:** centralized graph logging on debug or warning depending on verbose ([c807695](https://github.com/VinciGit00/Scrapegraph-ai/commit/c807695720a85c74a0b4365afb397bbbcd7e2889))
+* **burr:** first burr integration and docs ([19b27bb](https://github.com/VinciGit00/Scrapegraph-ai/commit/19b27bbe852f134cf239fc1945e7906bc24d7098))
+* **node:** knowledge graph node ([8c33ea3](https://github.com/VinciGit00/Scrapegraph-ai/commit/8c33ea3fbce18f74484fe7bd9469ab95c985ad0b))
+* **version:** python 3.12 is now supported 🚀 ([5fb9115](https://github.com/VinciGit00/Scrapegraph-ai/commit/5fb9115330141ac2c1dd97490284d4f1fa2c01c3))
+* **multiple:** quick fix working ([58cc903](https://github.com/VinciGit00/Scrapegraph-ai/commit/58cc903d556d0b8db10284493b05bed20992c339))
+* **kg:** removed import ([a338383](https://github.com/VinciGit00/Scrapegraph-ai/commit/a338383399b669ae2dd7bfcec168b791e8206816))
+* **docloaders:** undetected-playwright ([7b3ee4e](https://github.com/VinciGit00/Scrapegraph-ai/commit/7b3ee4e71e4af04edeb47999d70d398b67c93ac4))
+* **burr-node:** working burr bridge ([654a042](https://github.com/VinciGit00/Scrapegraph-ai/commit/654a04239640a89d9fa408ccb2e4485247ab84df))
+* **multiple_search:** working multiple example ([bed3eed](https://github.com/VinciGit00/Scrapegraph-ai/commit/bed3eed50c1678cfb07cba7b451ac28d38c87d7c))
+* **kg:** working rag kg ([c75e6a0](https://github.com/VinciGit00/Scrapegraph-ai/commit/c75e6a06b1a647f03e6ac6eeacdc578a85baa25b))
+
+
+### Bug Fixes
+
+* error in jsons ([ca436ab](https://github.com/VinciGit00/Scrapegraph-ai/commit/ca436abf3cbff21d752a71969e787e8f8c98c6a8))
+* **pdf_scraper:** fix the pdf scraper gaph ([d00cde6](https://github.com/VinciGit00/Scrapegraph-ai/commit/d00cde60309935e283ba9116cf0b114e53cb9640))
+* **local_file:** fixed textual input pdf, csv, json and xml graph ([8d5eb0b](https://github.com/VinciGit00/Scrapegraph-ai/commit/8d5eb0bb0d5d008a63a96df94ce3842320376b8e))
+* **kg:** removed unused nodes and utils ([5684578](https://github.com/VinciGit00/Scrapegraph-ai/commit/5684578fab635e862de58f7847ad736c6a57f766))
+* **logger:** set up centralized root logger in base node ([4348d4f](https://github.com/VinciGit00/Scrapegraph-ai/commit/4348d4f4db6f30213acc1bbccebc2b143b4d2636))
+* **logging:** source code citation ([d139480](https://github.com/VinciGit00/Scrapegraph-ai/commit/d1394809d704bee4085d494ddebab772306b3b17))
+* template names ([b82f33a](https://github.com/VinciGit00/Scrapegraph-ai/commit/b82f33aee72515e4258e6f508fce15028eba5cbe))
+* **node-logging:** use centralized logger in each node for logging ([c251cc4](https://github.com/VinciGit00/Scrapegraph-ai/commit/c251cc45d3694f8e81503e38a6d2b362452b740e))
+* **web-loader:** use sublogger ([0790ecd](https://github.com/VinciGit00/Scrapegraph-ai/commit/0790ecd2083642af9f0a84583216ababe351cd76))
+
+
+### Docs
+
+* **burr:** added dependecies and switched to furo ([819f071](https://github.com/VinciGit00/Scrapegraph-ai/commit/819f071f2dc64d090cb05c3571aff6c9cb9196d7))
+* **faq:** added faq section and refined installation ([545374c](https://github.com/VinciGit00/Scrapegraph-ai/commit/545374c17e9101a240fd1fbc380ce813c5aa6c2e))
+* **graph:** added new graphs and schema ([d27cad5](https://github.com/VinciGit00/Scrapegraph-ai/commit/d27cad591196b932c1bbcbaa936479a030ac67b5))
+* updated requirements ([e43b801](https://github.com/VinciGit00/Scrapegraph-ai/commit/e43b8018f5f360b88c52e45ff4e1b4221386ea8e))
+
+
+### CI
+
+* **release:** 1.2.0-beta.1 [skip ci] ([fd3e0aa](https://github.com/VinciGit00/Scrapegraph-ai/commit/fd3e0aa5823509dfb46b4f597521c24d4eb345f1))
+* **release:** 1.3.0-beta.1 [skip ci] ([191db0b](https://github.com/VinciGit00/Scrapegraph-ai/commit/191db0bc779e4913713b47b68ec4162a347da3ea))
+* **release:** 1.4.0-beta.1 [skip ci] ([2caddf9](https://github.com/VinciGit00/Scrapegraph-ai/commit/2caddf9a99b5f3aedc1783216f21d23cd35b3a8c))
+* **release:** 1.4.0-beta.2 [skip ci] ([f1a2523](https://github.com/VinciGit00/Scrapegraph-ai/commit/f1a25233d650010e1932e0ab80938079a22a296d))
+* **release:** 1.5.0-beta.1 [skip ci] ([e1006f3](https://github.com/VinciGit00/Scrapegraph-ai/commit/e1006f39c48bf214e68d9765b5546ac65a2ecd2c))
+* **release:** 1.5.0-beta.2 [skip ci] ([edf221d](https://github.com/VinciGit00/Scrapegraph-ai/commit/edf221dcd9eac4df76b638122a30e8853280a6f2))
+* **release:** 1.5.0-beta.3 [skip ci] ([90d5691](https://github.com/VinciGit00/Scrapegraph-ai/commit/90d5691a5719a699277919b4f87460b40eff69e4))
+* **release:** 1.5.0-beta.4 [skip ci] ([15b7682](https://github.com/VinciGit00/Scrapegraph-ai/commit/15b7682967d172e380155c8ebb0baad1c82446cb))
+* **release:** 1.5.0-beta.5 [skip ci] ([1f51147](https://github.com/VinciGit00/Scrapegraph-ai/commit/1f511476a47220ef9947635ecd1087bdb82c9bad))
+
+## [1.5.0-beta.5](https://github.com/VinciGit00/Scrapegraph-ai/compare/v1.5.0-beta.4...v1.5.0-beta.5) (2024-05-26)
+
+
+### Features
+
+* **version:** python 3.12 is now supported 🚀 ([5fb9115](https://github.com/VinciGit00/Scrapegraph-ai/commit/5fb9115330141ac2c1dd97490284d4f1fa2c01c3))
+
+
+### Docs
+
+* **faq:** added faq section and refined installation ([545374c](https://github.com/VinciGit00/Scrapegraph-ai/commit/545374c17e9101a240fd1fbc380ce813c5aa6c2e))
+* updated requirements ([e43b801](https://github.com/VinciGit00/Scrapegraph-ai/commit/e43b8018f5f360b88c52e45ff4e1b4221386ea8e))
+
+## [1.5.0-beta.4](https://github.com/VinciGit00/Scrapegraph-ai/compare/v1.5.0-beta.3...v1.5.0-beta.4) (2024-05-25)
+
+
+### Features
+
+* **burr:** added burr integration in graphs and optional burr installation ([ac10128](https://github.com/VinciGit00/Scrapegraph-ai/commit/ac10128ff3af35c52b48c79d085e458524e8e48a))
+* **burr-bridge:** BurrBridge class to integrate inside BaseGraph ([6cbd84f](https://github.com/VinciGit00/Scrapegraph-ai/commit/6cbd84f254ebc1f1c68699273bdd8fcdb0fe26d4))
+* **burr:** first burr integration and docs ([19b27bb](https://github.com/VinciGit00/Scrapegraph-ai/commit/19b27bbe852f134cf239fc1945e7906bc24d7098))
+* **burr-node:** working burr bridge ([654a042](https://github.com/VinciGit00/Scrapegraph-ai/commit/654a04239640a89d9fa408ccb2e4485247ab84df))
+
+
+### Docs
+
+* **burr:** added dependecies and switched to furo ([819f071](https://github.com/VinciGit00/Scrapegraph-ai/commit/819f071f2dc64d090cb05c3571aff6c9cb9196d7))
+* **graph:** added new graphs and schema ([d27cad5](https://github.com/VinciGit00/Scrapegraph-ai/commit/d27cad591196b932c1bbcbaa936479a030ac67b5))
+
+## [1.5.0-beta.3](https://github.com/VinciGit00/Scrapegraph-ai/compare/v1.5.0-beta.2...v1.5.0-beta.3) (2024-05-24)
+
+
+### Bug Fixes
+
+* **kg:** removed unused nodes and utils ([5684578](https://github.com/VinciGit00/Scrapegraph-ai/commit/5684578fab635e862de58f7847ad736c6a57f766))
+
+## [1.5.0-beta.2](https://github.com/VinciGit00/Scrapegraph-ai/compare/v1.5.0-beta.1...v1.5.0-beta.2) (2024-05-24)
+
+
+### Bug Fixes
+
+* **pdf_scraper:** fix the pdf scraper gaph ([d00cde6](https://github.com/VinciGit00/Scrapegraph-ai/commit/d00cde60309935e283ba9116cf0b114e53cb9640))
+* **local_file:** fixed textual input pdf, csv, json and xml graph ([8d5eb0b](https://github.com/VinciGit00/Scrapegraph-ai/commit/8d5eb0bb0d5d008a63a96df94ce3842320376b8e))
+
+## [1.5.0-beta.1](https://github.com/VinciGit00/Scrapegraph-ai/compare/v1.4.0...v1.5.0-beta.1) (2024-05-24)
+
+
+### Features
+
+* **knowledgegraph:** add knowledge graph node ([0196423](https://github.com/VinciGit00/Scrapegraph-ai/commit/0196423bdeea6568086aae6db8fc0f5652fc4e87))
+* add logger integration ([e53766b](https://github.com/VinciGit00/Scrapegraph-ai/commit/e53766b16e89254f945f9b54b38445a24f8b81f2))
+* **smart-scraper-multi:** add schema to graphs and created SmartScraperMultiGraph ([fc58e2d](https://github.com/VinciGit00/Scrapegraph-ai/commit/fc58e2d3a6f05efa72b45c9e68c6bb41a1eee755))
+* **base_graph:** alligned with main ([73fa31d](https://github.com/VinciGit00/Scrapegraph-ai/commit/73fa31db0f791d1fd63b489ac88cc6e595aa07f9))
+* **verbose:** centralized graph logging on debug or warning depending on verbose ([c807695](https://github.com/VinciGit00/Scrapegraph-ai/commit/c807695720a85c74a0b4365afb397bbbcd7e2889))
+* **node:** knowledge graph node ([8c33ea3](https://github.com/VinciGit00/Scrapegraph-ai/commit/8c33ea3fbce18f74484fe7bd9469ab95c985ad0b))
+* **multiple:** quick fix working ([58cc903](https://github.com/VinciGit00/Scrapegraph-ai/commit/58cc903d556d0b8db10284493b05bed20992c339))
+* **kg:** removed import ([a338383](https://github.com/VinciGit00/Scrapegraph-ai/commit/a338383399b669ae2dd7bfcec168b791e8206816))
+* **docloaders:** undetected-playwright ([7b3ee4e](https://github.com/VinciGit00/Scrapegraph-ai/commit/7b3ee4e71e4af04edeb47999d70d398b67c93ac4))
+* **multiple_search:** working multiple example ([bed3eed](https://github.com/VinciGit00/Scrapegraph-ai/commit/bed3eed50c1678cfb07cba7b451ac28d38c87d7c))
+* **kg:** working rag kg ([c75e6a0](https://github.com/VinciGit00/Scrapegraph-ai/commit/c75e6a06b1a647f03e6ac6eeacdc578a85baa25b))
+
+
+### Bug Fixes
+
+* error in jsons ([ca436ab](https://github.com/VinciGit00/Scrapegraph-ai/commit/ca436abf3cbff21d752a71969e787e8f8c98c6a8))
+* **logger:** set up centralized root logger in base node ([4348d4f](https://github.com/VinciGit00/Scrapegraph-ai/commit/4348d4f4db6f30213acc1bbccebc2b143b4d2636))
+* **logging:** source code citation ([d139480](https://github.com/VinciGit00/Scrapegraph-ai/commit/d1394809d704bee4085d494ddebab772306b3b17))
+* template names ([b82f33a](https://github.com/VinciGit00/Scrapegraph-ai/commit/b82f33aee72515e4258e6f508fce15028eba5cbe))
+* **node-logging:** use centralized logger in each node for logging ([c251cc4](https://github.com/VinciGit00/Scrapegraph-ai/commit/c251cc45d3694f8e81503e38a6d2b362452b740e))
+* **web-loader:** use sublogger ([0790ecd](https://github.com/VinciGit00/Scrapegraph-ai/commit/0790ecd2083642af9f0a84583216ababe351cd76))
+
+
+### CI
+
+* **release:** 1.2.0-beta.1 [skip ci] ([fd3e0aa](https://github.com/VinciGit00/Scrapegraph-ai/commit/fd3e0aa5823509dfb46b4f597521c24d4eb345f1))
+* **release:** 1.3.0-beta.1 [skip ci] ([191db0b](https://github.com/VinciGit00/Scrapegraph-ai/commit/191db0bc779e4913713b47b68ec4162a347da3ea))
+* **release:** 1.4.0-beta.1 [skip ci] ([2caddf9](https://github.com/VinciGit00/Scrapegraph-ai/commit/2caddf9a99b5f3aedc1783216f21d23cd35b3a8c))
+* **release:** 1.4.0-beta.2 [skip ci] ([f1a2523](https://github.com/VinciGit00/Scrapegraph-ai/commit/f1a25233d650010e1932e0ab80938079a22a296d))
 
 ## [1.4.0-beta.2](https://github.com/VinciGit00/Scrapegraph-ai/compare/v1.4.0-beta.1...v1.4.0-beta.2) (2024-05-19)
 

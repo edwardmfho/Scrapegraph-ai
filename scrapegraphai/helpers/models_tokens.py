@@ -5,6 +5,7 @@ Models token
 models_tokens = {
     "openai": {
         "gpt-3.5-turbo-0125": 16385,
+        "gpt-3.5": 4096,
         "gpt-3.5-turbo": 4096,
         "gpt-3.5-turbo-1106": 16385,
         "gpt-3.5-turbo-instruct": 4096,
@@ -78,6 +79,9 @@ models_tokens = {
         "snowflake-arctic-embed:335m": 8192,
         "snowflake-arctic-embed:l": 8192,
         "mxbai-embed-large": 512,
+    },
+    "oneapi": {
+        "qwen-turbo": 6000 
     },
     "groq": {
         "llama3-8b-8192": 8192,

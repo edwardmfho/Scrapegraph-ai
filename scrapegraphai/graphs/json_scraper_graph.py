@@ -3,13 +3,13 @@ JSONScraperGraph Module
 """
 
 from typing import Optional
+from pydantic import BaseModel
 
 from .base_graph import BaseGraph
 from .abstract_graph import AbstractGraph
 
 from ..nodes import (
     FetchNode,
-    ParseNode,
     RAGNode,
     GenerateAnswerNode
 )
@@ -45,7 +45,7 @@ class JSONScraperGraph(AbstractGraph):
         >>> result = json_scraper.run()
     """
 
-    def __init__(self, prompt: str, source: str, config: dict, schema: Optional[str] = None):
+    def __init__(self, prompt: str, source: str, config: dict, schema: Optional[BaseModel] = None):
         super().__init__(prompt, config, source, schema)
 
         self.input_key = "json" if source.endswith("json") else "json_dir"
@@ -61,13 +61,6 @@ class JSONScraperGraph(AbstractGraph):
         fetch_node = FetchNode(
             input="json | json_dir",
             output=["doc", "link_urls", "img_urls"],
-        )
-        parse_node = ParseNode(
-            input="doc",
-            output=["parsed_doc"],
-            node_config={
-                "chunk_size": self.model_token
-            }
         )
         rag_node = RAGNode(
             input="user_prompt & (parsed_doc | doc)",
@@ -89,13 +82,11 @@ class JSONScraperGraph(AbstractGraph):
         return BaseGraph(
             nodes=[
                 fetch_node,
-                parse_node,
                 rag_node,
                 generate_answer_node,
             ],
             edges=[
-                (fetch_node, parse_node),
-                (parse_node, rag_node),
+                (fetch_node, rag_node),
                 (rag_node, generate_answer_node)
             ],
             entry_point=fetch_node
